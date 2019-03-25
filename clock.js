@@ -22,6 +22,7 @@ function getTime() {
   clock.innerHTML = `${hours}:${minutes < 10 ? `0${minutes}` : minutes}:${
     seconds < 10 ? `0${seconds}` : seconds
   }`;
+  return hours;
 }
 
 function init() {

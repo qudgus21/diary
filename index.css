@@ -1,0 +1,7 @@
+.greeting_form,
+.greeting {
+  display: none;
+}
+.showing {
+  display: block;
+}
