@@ -28,6 +28,8 @@ function paintToDo(toDo) {
   span.innerHTML = toDo;
   btn.innerText = "❌";
   btn.addEventListener("click", handleDelete);
+  btn.classList.add("toDoBtn");
+  li.classList.add("toDoList");
   li.appendChild(span);
   li.appendChild(btn);
   toDoList.appendChild(li);
