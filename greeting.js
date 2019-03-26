@@ -9,6 +9,7 @@ function handleClick(event) {
   while (h4.hasChildNodes()) {
     h4.removeChild(h4.firstChild);
   }
+  greetingInput.value = "";
   askForName();
 }
 
