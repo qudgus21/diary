@@ -1,3 +1,4 @@
+
 body {
   background-color: #34495e;
   color: white;
@@ -73,10 +74,12 @@ body {
   display: flex;
   margin: 20px;
   font-weight: 600;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .toDoBtn {
-  margin-left: 10px;
+  margin-left: 30px;
   height: 30px;
   width: 30px;
   border-radius: 50%;
@@ -102,4 +105,56 @@ body {
 
 .js-toDoForm :hover {
   border: 2px solid yellow;
+}
+
+.centerLine{
+  text-decoration: line-through red solid;
+}
+
+.btnCheck{
+
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -4px;
+  outline: none;
+  margin-left: 4px;
+  color: red;
+}
+
+.btnCheck:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.editBtn{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -4px;
+  outline: none;
+  margin-left: 4px;
+  color: red;
+}
+
+.editBtn:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.editForm{
+ position: relative;  
+ bottom: 4px;
+ margin-left: 10px;
+ border-radius: 50%;
+}
+
+.editList{
+  
 }

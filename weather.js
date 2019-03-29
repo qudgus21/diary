@@ -8,6 +8,7 @@ function callApi(lat, lon) {
     `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${KEY}&units=metric`
   )
     .then(function(response) {
+    
       return response.json();
     })
     .then(function(json) {
